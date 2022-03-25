@@ -1,0 +1,217 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="INTRO-F1.mp3" />
+    <None Remove="mp3\CHOISE-C-LZ-CS-F1.mp3" />
+    <None Remove="mp3\CHOISE-C2-LZ-CS-F1.mp3" />
+    <None Remove="mp3\CHOISE-CK1-F1.mp3" />
+    <None Remove="mp3\CHOISE-CN1-F1.mp3" />
+    <None Remove="mp3\CHOISE-CN2-F1.mp3" />
+    <None Remove="mp3\CHOISE-KG1-F1.mp3" />
+    <None Remove="mp3\CHOISE-KK1-F1.mp3" />
+    <None Remove="mp3\CHOISE-LZ1-F1.mp3" />
+    <None Remove="mp3\CHOISE-LZ2-F1.mp3" />
+    <None Remove="mp3\CHOISE2-C-LZ-CS-F1.mp3" />
+    <None Remove="mp3\CHOISE2-LZ2-F1.mp3" />
+    <None Remove="mp3\CHOISE3-LZ2-F1.mp3" />
+    <None Remove="mp3\CHOISE4-LZ2-F1.mp3" />
+    <None Remove="mp3\CHOISE5-LZ2-F1.mp3" />
+    <None Remove="mp3\CHOISE6-LZ2-F1.mp3" />
+    <None Remove="mp3\CORRIDOR-GB-LZ-F1.mp3" />
+    <None Remove="mp3\CORRIDOR-KK-LZ-F1.mp3" />
+    <None Remove="mp3\CORRIDOR-LZ-CS-DD-F1.mp3" />
+    <None Remove="mp3\CORRIDOR-LZ-CS-F1.mp3" />
+    <None Remove="mp3\CORRIDOR-LZ-CS2-F1.mp3" />
+    <None Remove="mp3\CORRIDOR-LZ-CS3-F1.mp3" />
+    <None Remove="mp3\CORRIDOR-LZ-NV-F1.mp3" />
+    <None Remove="mp3\CORRIDOR1-LZ-NV-F1.mp3" />
+    <None Remove="mp3\CORRIDOR2-GB-LZ-F1.mp3" />
+    <None Remove="mp3\CORRIDOR2-KK-LZ-F1.mp3" />
+    <None Remove="mp3\CORRIDOR2-LZ-CS-F1.mp3" />
+    <None Remove="mp3\CORRIDOR2-LZ-NV-F1.mp3" />
+    <None Remove="mp3\CORRIDOR3-KK-LZ-F1.mp3" />
+    <None Remove="mp3\CORRIDOR3-LZ-CS-F1.mp3" />
+    <None Remove="mp3\CORRIDOR3-LZ-GB-F1.mp3" />
+    <None Remove="mp3\CORRIDOR4-LZ-CS-F1.mp3" />
+    <None Remove="mp3\CORRIDOR4-LZ-GB-F1.mp3" />
+    <None Remove="mp3\CORRIDOR5-LZ-CS-F1.mp3" />
+    <None Remove="mp3\EVA-130.mp3" />
+    <None Remove="mp3\EVA-135.mp3" />
+    <None Remove="mp3\EVA-15.mp3" />
+    <None Remove="mp3\EVA-158.mp3" />
+    <None Remove="mp3\EVA-160.mp3" />
+    <None Remove="mp3\EVA-210.mp3" />
+    <None Remove="mp3\EVA-5.mp3" />
+    <None Remove="mp3\EVA-525.mp3" />
+    <None Remove="mp3\EVA-55.mp3" />
+    <None Remove="mp3\EVA-564.mp3" />
+    <None Remove="mp3\EVA-575.mp3" />
+    <None Remove="mp3\EVA-590.mp3" />
+    <None Remove="mp3\EVA-605.mp3" />
+    <None Remove="mp3\EVA-640.mp3" />
+    <None Remove="mp3\EVA-642.mp3" />
+    <None Remove="mp3\EVA-65.mp3" />
+    <None Remove="mp3\EVA-655.mp3" />
+    <None Remove="mp3\EVA-657.mp3" />
+    <None Remove="mp3\EVA-670.mp3" />
+    <None Remove="mp3\EVA-680.mp3" />
+    <None Remove="mp3\EVA-720.mp3" />
+    <None Remove="mp3\EVA-730.mp3" />
+    <None Remove="mp3\EVA-78.mp3" />
+    <None Remove="mp3\EVA-80.mp3" />
+    <None Remove="mp3\EVA-93.mp3" />
+    <None Remove="mp3\EVA-95.mp3" />
+    <None Remove="mp3\EVA-ENERGY.mp3" />
+    <None Remove="mp3\EVA-ENERGY2.mp3" />
+    <None Remove="mp3\INTRO-251121.mp3" />
+    <None Remove="mp3\KG2-F1.mp3" />
+    <None Remove="mp3\KG3-F1.mp3" />
+    <None Remove="mp3\KK1-F1.mp3" />
+    <None Remove="mp3\KK2-F1.mp3" />
+    <None Remove="mp3\KK3-F1.mp3" />
+    <None Remove="mp3\KK4-F1.mp3" />
+    <None Remove="mp3\LZ-AD1-F1.mp3" />
+    <None Remove="mp3\LZ-AD2-F1.mp3" />
+    <None Remove="mp3\LZ-AD3-F1.mp3" />
+    <None Remove="mp3\LZ-AD4-F1.mp3" />
+    <None Remove="mp3\NAV+KK1-F1.mp3" />
+    <None Remove="mp3\NAV+KK1-FGHT-F1.mp3" />
+    <None Remove="mp3\NO1-F1.mp3" />
+    <None Remove="mp3\NO2-F1.mp3" />
+    <None Remove="mp3\NO3-F1.mp3" />
+    <None Remove="mp3\NO4-F1.mp3" />
+    <None Remove="mp3\NO5-F1.mp3" />
+    <None Remove="mp3\NO6-F1.mp3" />
+    <None Remove="mp3\NO7-F1.mp3" />
+    <None Remove="mp3\NO8-F1.mp3" />
+    <None Remove="mp3\NO9-F1.mp3" />
+    <None Remove="mp3\TRY1-LZ2-F1.mp3" />
+    <None Remove="mp3\TRY2-LZ2-F1.mp3" />
+    <None Remove="mp3\TRY3-LZ2-F1.mp3" />
+    <None Remove="mp3\TRY4-LZ2-F1.mp3" />
+    <None Remove="mp3\TRY5-LZ2-F1.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="mp3\CHOISE-C-LZ-CS-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE-C2-LZ-CS-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE-CK1-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE-CN1-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE-CN2-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE-KG1-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE-KK1-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE-LZ1-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE2-C-LZ-CS-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE2-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE3-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE4-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE5-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\CHOISE6-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR-GB-LZ-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR-KK-LZ-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR-LZ-CS-DD-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR-LZ-CS-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR-LZ-CS2-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR-LZ-CS3-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR-LZ-NV-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR1-LZ-NV-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR2-GB-LZ-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR2-KK-LZ-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR2-LZ-CS-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR2-LZ-NV-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR3-KK-LZ-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR3-LZ-CS-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR3-LZ-GB-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR4-LZ-CS-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR4-LZ-GB-F1.mp3" />
+    <EmbeddedResource Include="mp3\CORRIDOR5-LZ-CS-F1.mp3" />
+    <EmbeddedResource Include="mp3\EVA-130.mp3" />
+    <EmbeddedResource Include="mp3\EVA-135.mp3" />
+    <EmbeddedResource Include="mp3\EVA-15.mp3" />
+    <EmbeddedResource Include="mp3\EVA-158.mp3" />
+    <EmbeddedResource Include="mp3\EVA-160.mp3" />
+    <EmbeddedResource Include="mp3\EVA-210.mp3" />
+    <EmbeddedResource Include="mp3\EVA-5.mp3" />
+    <EmbeddedResource Include="mp3\EVA-525.mp3" />
+    <EmbeddedResource Include="mp3\EVA-55.mp3" />
+    <EmbeddedResource Include="mp3\EVA-564.mp3" />
+    <EmbeddedResource Include="mp3\EVA-575.mp3" />
+    <EmbeddedResource Include="mp3\EVA-590.mp3" />
+    <EmbeddedResource Include="mp3\EVA-605.mp3" />
+    <EmbeddedResource Include="mp3\EVA-640.mp3" />
+    <EmbeddedResource Include="mp3\EVA-642.mp3" />
+    <EmbeddedResource Include="mp3\EVA-65.mp3" />
+    <EmbeddedResource Include="mp3\EVA-655.mp3" />
+    <EmbeddedResource Include="mp3\EVA-657.mp3" />
+    <EmbeddedResource Include="mp3\EVA-670.mp3" />
+    <EmbeddedResource Include="mp3\EVA-680.mp3" />
+    <EmbeddedResource Include="mp3\EVA-720.mp3" />
+    <EmbeddedResource Include="mp3\EVA-730.mp3" />
+    <EmbeddedResource Include="mp3\EVA-78.mp3" />
+    <EmbeddedResource Include="mp3\EVA-80.mp3" />
+    <EmbeddedResource Include="mp3\EVA-93.mp3" />
+    <EmbeddedResource Include="mp3\EVA-95.mp3" />
+    <EmbeddedResource Include="mp3\EVA-ENERGY.mp3" />
+    <EmbeddedResource Include="mp3\EVA-ENERGY2.mp3" />
+    <EmbeddedResource Include="mp3\INTRO-251121.mp3" />
+    <EmbeddedResource Include="mp3\INTRO-F1.mp3" />
+    <EmbeddedResource Include="mp3\KG2-F1.mp3" />
+    <EmbeddedResource Include="mp3\KG3-F1.mp3" />
+    <EmbeddedResource Include="mp3\KK1-F1.mp3" />
+    <EmbeddedResource Include="mp3\KK2-F1.mp3" />
+    <EmbeddedResource Include="mp3\KK3-F1.mp3" />
+    <EmbeddedResource Include="mp3\KK4-F1.mp3" />
+    <EmbeddedResource Include="mp3\LZ-AD1-F1.mp3" />
+    <EmbeddedResource Include="mp3\LZ-AD2-F1.mp3" />
+    <EmbeddedResource Include="mp3\LZ-AD3-F1.mp3" />
+    <EmbeddedResource Include="mp3\LZ-AD4-F1.mp3" />
+    <EmbeddedResource Include="mp3\NAV+KK1-F1.mp3" />
+    <EmbeddedResource Include="mp3\NAV+KK1-FGHT-F1.mp3" />
+    <EmbeddedResource Include="mp3\NO1-F1.mp3" />
+    <EmbeddedResource Include="mp3\NO2-F1.mp3" />
+    <EmbeddedResource Include="mp3\NO3-F1.mp3" />
+    <EmbeddedResource Include="mp3\NO4-F1.mp3" />
+    <EmbeddedResource Include="mp3\NO5-F1.mp3" />
+    <EmbeddedResource Include="mp3\NO6-F1.mp3" />
+    <EmbeddedResource Include="mp3\NO7-F1.mp3" />
+    <EmbeddedResource Include="mp3\NO8-F1.mp3" />
+    <EmbeddedResource Include="mp3\NO9-F1.mp3" />
+    <EmbeddedResource Include="mp3\TRY1-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\TRY2-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\TRY3-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\TRY4-LZ2-F1.mp3" />
+    <EmbeddedResource Include="mp3\TRY5-LZ2-F1.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.5.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
